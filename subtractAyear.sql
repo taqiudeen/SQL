@@ -1,0 +1,1 @@
+UPDATE orders SET oDate = DATE_SUB(oDate, INTERVAL 1 YEAR) WHERE oDate >= '2024-10-03';
